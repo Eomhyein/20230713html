@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="./assets/style.css"> 
+    <style>
+        p {
+            color: white; /*색상*/
+            font-size: 20px; /*사이즈*/
+            font-weight: bold; /*굵기*/
+            /* letter-spacing: 20px; 자간 */
+            line-height: 50px; /*행간*/
+            text-align: reft; /*정렬*/
+            /* text-decoration: underline; 글자아래 줄긋기 */
+            text-decoration: line-through; /*글자 중간에 줄긋기*/
+        }
+        div {
+            background-color: #79d1fa; /*배경색*/
+            width: 400px;
+            height: 200px;
+            overflow: auto; /*상자안에 스크롤 만들기*/
+            /* overflow: hidden; 상자 밖으로 나오는 글자는 안보여준다 */
+
+        }
+        .title {
+            color: red; 
+            font-size: 30px;
+            text-decoration: none;
+            font-weight: 300;
+            /* background-color: gray; */
+            line-height: 30px;
+            padding-left: 20px; /*padding 시계방향 위 오 아래 왼*/
+            border-left: 3px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- 타이틀 부분 -->
+        <p>TITLE <br> TEXT</p>
+        <p>TITLE <br> TEXT</p>
+        <p>TITLE <br> TEXT</p>
+    </div>
+    <p class="title">나는 바깥에 P지롱~~~</p>
+</body>
+</html>
